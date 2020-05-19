@@ -5,7 +5,7 @@ class SecureCalc
 {
 public:
 	template <typename T>
-	static void run(T t, double x)
+	static void run(const T& t, double x)
 	{
 		std::cout << "--- Calculation: " << t.name() << "(" << x << ")" << std::endl;
 
