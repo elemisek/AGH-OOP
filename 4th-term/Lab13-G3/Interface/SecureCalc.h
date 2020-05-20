@@ -19,7 +19,7 @@ public:
 		}
 		catch (...)
 		{
-			std::cout << "failed: unspecified exception\n";
+			std::cout << "failed: unknown exception\n";
 		}
 	}
 };
