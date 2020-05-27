@@ -20,7 +20,4 @@ public:
     
     // funkcja zajmująca się obsługą wszystkich błędów i usuwaniem wskaźników na nie (zarządzanie pamięcią)
     static void handler();
-    
-    // zaprzyjaźniona klasa zliczająca poziomy
-    friend class LicznikPoziomow;
 };
